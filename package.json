@@ -1,0 +1,19 @@
+{
+	"name": "visi",
+	"version": "1.0.0",
+	"description": "Visi library has been written on vanilla.js and doesn't require any dependencies. It provides functionality to monitor events when some dom object becomes partially visible in viewport",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "uglifyjs index.js -c -m --source-map visi.min.map -o visi.min.js"
+	},
+	"keywords": [
+		"viewport",
+		"dom",
+		"visible",
+		"visibility",
+		"event"
+	],
+	"author": "Roman Yudin",
+	"license": "ISC"
+}
