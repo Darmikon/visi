@@ -12,7 +12,6 @@ It adds some methods to simplify your work with handling of such event.
 
 ### Installation ###
 
-
 1. Remote
 
 	```
