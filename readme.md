@@ -7,6 +7,7 @@ Visi.js provides functionality to monitor when dom element is partially in a vie
 It adds some methods to simplify your work with handling of such event.
 
 ### Demo ###
+[Visi + animation](http://visi.mana.pro/ "Visi.js")
 [Visi on jsfiddler](https://jsfiddle.net/Hellfrom/ksn8je0o/ "Visi on jsfiddler") (Watch console)
 
 ### Installation ###

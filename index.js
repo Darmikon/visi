@@ -190,7 +190,12 @@
 				,vertInView
 				,horInView;
 
-			rect = el.getBoundingClientRect();
+			rect = el.getBoundingClientRect && el.getBoundingClientRect();
+
+			if(!rect){
+				return false;
+			}
+			
 			// DOMRect { x: 8, y: 8, width: 100, height: 100, top: 8, right: 108, bottom: 108, left: 8 }
 			windowHeight = (window.innerHeight || document.documentElement.clientHeight);
 			windowWidth = (window.innerWidth || document.documentElement.clientWidth);
